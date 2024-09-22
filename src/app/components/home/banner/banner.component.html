@@ -1,0 +1,32 @@
+<section class="section banner">
+    <div [@bannerTrigger] class="container">
+        <div class="section-box-banner">
+            <div class="content">
+                <div>
+                    <h1>Hello! My name is</h1>
+                </div>
+                <div class='banner-title'>
+                    <h2 class="text-capitalize">Jaimin Patel.</h2>
+                    <h3 class="text-capitalize">front-end developer</h3>
+                </div>
+                <div class='banner-description'>
+
+                    <p class="mt-4">
+                        With a <span class="underline"> {{calculateYearMonthDifference()}} of experience</span> in developing web applications and ESB software, I am
+                        committed to enhancing the functionality and accessibility of the web. My expertise lies in writing and refactoring
+                        clean, reusable, and scalable code using <span class="underline">
+                            Angular, JavaScript, and TypeScript.
+                        </span> I consistently adhere to best practices and development standards to ensure top-notch quality and
+                        maintainability of software solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="div-btn-banner">
+                <!-- href="jaiminjp9170@gmail.com" -->
+                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")'  target="_black" class="main-btn text-capitalize">
+                    get in touch
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
