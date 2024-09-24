@@ -4,10 +4,11 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
   selector: 'app-more-projects',
-  templateUrl: './more-proyects.component.html',
-  styleUrls: ['./more-proyects.component.scss']
+  templateUrl: './more-projects.component.html',
+  styleUrls: ['./more-projects.component.scss']
 })
 export class MoreProjectsComponent implements OnInit {
+
   Projects = [
     {
      
@@ -58,5 +59,4 @@ export class MoreProjectsComponent implements OnInit {
       }
       window.open(route, '_blank');
     }
-
 }
