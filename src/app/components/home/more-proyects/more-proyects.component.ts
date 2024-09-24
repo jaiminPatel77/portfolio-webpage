@@ -3,11 +3,11 @@ import { Router, NavigationEnd } from '@angular/router';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
-  selector: 'app-more-proyects',
+  selector: 'app-more-projects',
   templateUrl: './more-proyects.component.html',
   styleUrls: ['./more-proyects.component.scss']
 })
-export class MoreProyectsComponent implements OnInit {
+export class MoreProjectsComponent implements OnInit {
   Projects = [
     {
      
