@@ -1,7 +1,6 @@
 # Jaimin-Portfolio 
 I have 1 years of experience developing forntend, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in `Angular, TypeScript,JavaScript` applying good practices and development standards.
 
-Click the link below to open my portfolio.
 
 ## Development server
 
