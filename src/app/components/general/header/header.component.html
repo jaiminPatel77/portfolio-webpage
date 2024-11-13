@@ -15,7 +15,7 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("proyects")'><span class='nav-number'>03. </span> <span
+                <a ngbNavLink (click)='scroll("projects")'><span class='nav-number'>03. </span> <span
                         class="underline nav-text" ngbTooltip="View My Creative Projects">Projects</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
@@ -55,12 +55,17 @@
                             </a>
                         </li>
                         <li>
-                            <a (click)='scroll("proyects")'>
+                            <a (click)='scroll("projects")'>
                                 <span>03. </span> Projects
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a (click)='scroll("proyects")'>
+                                <span>04. </span> Certifications
+                            </a>
+                        </li> -->
+                        <li>
+                            <a (click)='scroll("contact")'>
                                 <span>04. </span> Contact
                             </a>
                         </li>

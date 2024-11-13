@@ -39,8 +39,8 @@
                             </p>
                         </div>
                         <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i%2!=0' class="project-skills">
-                            <li *ngFor='let technology of project.Technologies' class="ml-3">
-                              <span class="underline technology">{{technology}}</span>
+                            <li *ngFor="let technology of project.Technologies">
+                              <span class="underline technology">{{technology}}</span>&nbsp;
                             </li>
                         </ul>
                         <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="project-links">

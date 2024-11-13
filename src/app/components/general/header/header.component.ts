@@ -60,7 +60,7 @@ export class HeaderComponent implements OnInit {
 
   downloadCV() {
     let url = window.location.href;
-    window.open(url + "/../assets/images/me/Jaimin_Patel_CV.pdf");
+    window.open(url + "/../assets/images/me/Jaimin_Patel-CV.pdf");
   }
 
   downloadResume() {

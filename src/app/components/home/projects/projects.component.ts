@@ -12,13 +12,13 @@ export class ProjectsComponent implements OnInit {
   Projects = [
     {
       imgs:[
-        '../../../../assets/images/medmatch/screenshot.png',
+        '../../../../assets/ima ges/medmatch/screenshot.png',
         '../../../../assets/images/medmatch/screenshot (1).png',
         '../../../../assets/images/medmatch/screenshot (2).png',
         '../../../../assets/images/medmatch/screenshot (3).png'],
       Title:'Med Match',
       Description:'The purpose of this project is to enhance the safety of prescribing drugs and to address the challenges related to prescribing errors which can have significant damage the patient’s health, the project ultimate goal is to contribute to the overall improvement of medication safety in the healthcare department.',
-      Technologies:['Angular','SASS','Angular-Material' , 'RxJS', 'Node.js'],
+      Technologies:['MongoDB','SASS','Angular-Material' , 'RxJS', 'Node.js'],
       // ghLink:'https://github.com/jaimineldin/medmatch',
       // demoLink:'https://medmatchh.netlify.app/'
     },
