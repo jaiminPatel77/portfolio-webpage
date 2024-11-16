@@ -14,19 +14,16 @@ export class AppComponent implements OnInit {
   constructor(
     private titleService: Title,
     private metaService: Meta,
-   
+
   ) {
   }
   ngOnInit(): void {
-
-   
-
     this.titleService.setTitle("Jaimin Patel| Front-end Developer  | Software Developer");
     this.metaService.addTags([
       { name: 'keywords', content: 'Frontend , Software Engineer, software, Developer' },
       { name: 'description', content: 'As a software engineer with expertise in Frontend, I have a comprehensive understanding of Frontend web development. My strong foundation in TypeScript allows me to effectively work with front-end technologies such as Angular.' },
     ]);
-    
+
     AOS.init();
 
 
