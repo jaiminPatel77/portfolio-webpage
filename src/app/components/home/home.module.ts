@@ -12,6 +12,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ProjectsComponent } from './projects/projects.component';
 import { MoreProjectsComponent } from './more-projects/more-projects.component';
+import { CertificationsComponent } from './certifications/certifications.component';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -28,6 +29,7 @@ export function HttpLoaderFactory(http: HttpClient){
     MoreProjectsComponent,
     ContactComponent,
     ProjectsComponent,
+    CertificationsComponent,
   ],
   imports: [
     NgbModule,

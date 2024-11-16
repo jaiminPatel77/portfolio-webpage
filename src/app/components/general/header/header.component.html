@@ -15,12 +15,17 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("proyects")'><span class='nav-number'>03. </span> <span
+                <a ngbNavLink (click)='scroll("projects")'><span class='nav-number'>03. </span> <span
                         class="underline nav-text" ngbTooltip="View My Creative Projects">Projects</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_certifications", "menu", "click")'>
+                <a ngbNavLink (click)='scroll("certifications")'><span class='nav-number'>04. </span> <span
+                    class="underline nav-text" ngbTooltip="">Certifications</span></a>
+                <ng-template ngbNavContent>Second content</ng-template>
+            </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04. </span> <span
+                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>05. </span> <span
                         class="underline nav-text" ngbTooltip="Get in Touch with Me">Contact</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
@@ -55,13 +60,18 @@
                             </a>
                         </li>
                         <li>
-                            <a (click)='scroll("proyects")'>
+                            <a (click)='scroll("projects")'>
                                 <span>03. </span> Projects
                             </a>
                         </li>
                         <li>
-                            <a (click)='scroll("proyects")'>
-                                <span>04. </span> Contact
+                            <a (click)='scroll("certifications")'>
+                                <span>04. </span> Certifications
+                            </a>
+                        </li>
+                        <li>
+                            <a (click)='scroll("contact")'>
+                                <span>05. </span> Contact
                             </a>
                         </li>
 
