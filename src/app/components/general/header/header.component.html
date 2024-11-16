@@ -19,8 +19,13 @@
                         class="underline nav-text" ngbTooltip="View My Creative Projects">Projects</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_certifications", "menu", "click")'>
+                <a ngbNavLink (click)='scroll("certifications")'><span class='nav-number'>04. </span> <span
+                    class="underline nav-text" ngbTooltip="">Certifications</span></a>
+                <ng-template ngbNavContent>Second content</ng-template>
+            </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04. </span> <span
+                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>05. </span> <span
                         class="underline nav-text" ngbTooltip="Get in Touch with Me">Contact</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
@@ -59,14 +64,14 @@
                                 <span>03. </span> Projects
                             </a>
                         </li>
-                        <!-- <li>
-                            <a (click)='scroll("proyects")'>
+                        <li>
+                            <a (click)='scroll("certifications")'>
                                 <span>04. </span> Certifications
                             </a>
-                        </li> -->
+                        </li>
                         <li>
                             <a (click)='scroll("contact")'>
-                                <span>04. </span> Contact
+                                <span>05. </span> Contact
                             </a>
                         </li>
 
