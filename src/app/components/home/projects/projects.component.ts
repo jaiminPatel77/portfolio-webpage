@@ -12,10 +12,10 @@ export class ProjectsComponent implements OnInit {
   Projects = [
     {
       imgs:[
-        '../../../../assets/images/projects/MERN-1.jpg',
-        '../../../../assets/images/projects/MERN-3.jpg',
-        '../../../../assets/images/projects/MERN-2.jpg',
-        '../../../../assets/images/projects/MERN-4.jpg'],
+        '../../../../assets/images/projects/MERN-001.jpg',
+        '../../../../assets/images/projects/MERN-003.jpg',
+        '../../../../assets/images/projects/MERN-002.jpg',
+        '../../../../assets/images/projects/MERN-004.jpg'],
       Title:'PeerHub',
       Description:'PeerHub is a fullstack social networking platform designed to connect users in a dynamic, interactive environment. Built with the MERN stack, it features user authentication and secure data management. Users can create profiles, upload images, and interact through comments and likes, simulating a modern social media experience.',
       Technologies:['MongoDB','Express.js' ,'RxJS', 'Node.js' , 'JWT'],
