@@ -11,31 +11,23 @@ export class CertificationsComponent implements OnInit {
 
   Projects = [
     {
-     
-      Title:'Quizz App',
-      Description:'The Simple Quiz App is a user-friendly and straightforward application designed to offer a fun and interactive quiz experience. the quiz consists of multiple-choice questions, and users can select their answers from the provided options.',
-      Technologies:['Html','Css','javaScript' , 'Jquery'],
+     image:'assets/images/Certificate/MERN.jpg',
+      Title:'MERN Stack',
+      Description:'',
+      Technologies:['MongoDb','Express.js','React.js' , 'Node.js','JWT'],
       // ghLink:'https://github.com/jaimineldin/quizz-app',
       // demoLink:'https://quizzzz-app-js.netlify.app/'
     },
 
 
     {
-      Title:'techivo',
-      Description:'techivo site  (personal practicing on design)',
-      Technologies:['Html','Css','Animation','Responsive'],
+      image:'assets/images/Certificate/Advance-react.jpg',
+      Title:'Advanced React',
+      Description:'',
+      Technologies:['React.js','Javascript','Node.js'],
       // ghLink:'https://github.com/jaimineldin/techivo',
       // demoLink:'https://techivo.netlify.app/'
-    },
-
-    {
-     
-      Title:'devolio',
-      Description:'devolio site  (personal practicing on design)',
-      Technologies:['Html','Css','Animation','Responsive'],
-      // ghLink:'https://github.com/jaimineldin/devolio',
-      // demoLink:'https://devoliooo.netlify.app/'
-    },
+    }
 
   ]
 
