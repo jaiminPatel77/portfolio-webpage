@@ -10,22 +10,23 @@
 
     ul{
         display: block;
-        width: 114.33px;
+        width: 150px;
         border: none;
     }
 
     a.active{
         background-color: $LightNavy !important;
         color: $Green !important;
-        border-color: transparent !important;
-        border-radius: 0px;
+        border-color: rgb(254, 254, 254) !important;
+        border-radius: 10px;
+        border-width: 2px !important;
     }
     
     a:hover{
         background-color: $LightNavy !important;
         color: $Green !important;
-        border-color: transparent !important;
-        border-radius: 0px;
+        border-color: gray !important;
+        border-radius: 10px;
     }
 
     a{

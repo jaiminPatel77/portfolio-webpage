@@ -10,6 +10,7 @@ export class JobsComponent implements OnInit {
   Experiences: any[] = [
     {
       Tab: 'Experience',
+      Icon: 'assets/images/icons/job.png',
       Title: 'Job',
       board: 'Confidosoft solutions Pvt. Ltd',
       Date: 'Jun 2023 –  Present',
@@ -21,6 +22,7 @@ export class JobsComponent implements OnInit {
     },
     {
       Tab: 'Internship',
+      Icon: 'assets/images/icons/internship.png',
       Title: 'Internship',
       board: 'Confidosoft solutions Pvt. Ltd',
       Date: 'Jan 2023 –  April 2023',
@@ -32,6 +34,7 @@ export class JobsComponent implements OnInit {
     },
     {
       Tab: 'College',
+      Icon: 'assets/images/icons/university.png',
       Title: 'Bachelor of Engineering in IT',
       board :'Gujarat Technological University',
       Date: 'Jun 2029 - May 2023',
@@ -43,6 +46,7 @@ export class JobsComponent implements OnInit {
     },
     {
       Tab: 'School',
+      Icon: 'assets/images/icons/school.png',
       Title: 'SSC | HSC',
       board :'GSEB board',
       Date: '',
