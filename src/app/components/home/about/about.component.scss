@@ -1,5 +1,12 @@
 @import "./../../../../variables.scss";
 
+.divider {
+    border: 0;
+    height: 1px;
+    background: #17396b;
+    margin: -2px 0;
+}
+
 .about{
 
     .about-description{
